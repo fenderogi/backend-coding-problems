@@ -65,7 +65,6 @@ class Follow(Base):
     __tablename__ = 'follow'
     __table_args__ = {'extend_existing': True}
 
-    # id = Column(Integer, primary_key=True)
     follower_id = Column(Integer, ForeignKey('user.id'), primary_key=True)
     following_id = Column(Integer, ForeignKey('user.id'), primary_key=True)
     created_at = Column(Integer)
