@@ -59,6 +59,3 @@ def get_posts(user_id, post_ids):
             final_posts_list.append(final_post_dict)
 
     return final_posts_list
-
-
-print(get_posts(1, [1, 6]))

@@ -154,23 +154,23 @@ from base import User, Post, Like, Follow, session
 
 
 
-follows = [
-    {
-        "follower_id": 1,
-        "following_id": 2,
-        "created_at": 1656067777
-    },
-    {
-        "follower_id": 1,
-        "following_id": 3,
-        "created_at": 1656137572
-    },
-    {
-        "follower_id": 2,
-        "following_id": 1,
-        "created_at": 1656149771
-    }
-]
+# follows = [
+#     {
+#         "follower_id": 1,
+#         "following_id": 2,
+#         "created_at": 1656067777
+#     },
+#     {
+#         "follower_id": 1,
+#         "following_id": 3,
+#         "created_at": 1656137572
+#     },
+#     {
+#         "follower_id": 2,
+#         "following_id": 1,
+#         "created_at": 1656149771
+#     }
+# ]
 
 # for follow in follows:
 #     new_follow = Follow(

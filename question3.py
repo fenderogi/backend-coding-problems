@@ -35,6 +35,3 @@ def mix_by_owners(posts):
         mixed_posts.append(output_posts_dict)
 
     return mixed_posts
-
-
-print(mix_by_owners(posts_list_as_input))
